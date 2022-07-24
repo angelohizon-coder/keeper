@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans+JP:wght@700&display=swap');
+
+* {
+    margin: 0;
+}
+
+body{
+    background-color: #eaeaea;
+    font-family: 'Indie Flower', cursive;
+    min-height: 100vh;
+}
+
+/* Header */
+
+header{
+    background-color: green;
+    min-height: 50px;
+    padding: 10px 0 10px 30px;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Input */
+
+.input-div {
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 3px 3px #d3d3d3;
+    height: fit-content;
+    padding: 7.5px 9px;
+    margin: 5px auto auto auto;
+    width: 250px;
+}
+
+input {
+    font-weight: bold;
+}
+
+.input {
+    border: 0px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    width: 250px;
+}
+
+.input:focus {
+    outline: none !important;
+}
+
+.input::placeholder {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Section */
+
+.button {
+    background-color: green;
+    border: none;
+    border-radius: 15%;
+    color: white;
+    padding: 10px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    padding: 0 0 40px 0;
+}
+
+.submit-button {
+    text-align: right;
+    width: 100%;
+}
+
+.note{
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 3px 3px #d3d3d3;
+    height: fit-content;
+    padding: 7.5px 9px;
+    margin: 10px;
+    max-width: 250px;
+}
+
+.note p {
+    overflow-y: auto;
+    max-height: 300px;
+    margin-bottom: 25px;
+}
+
+/* Footer */
+
+footer {
+    background-color: green;
+    bottom: 0;
+    color: white;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
